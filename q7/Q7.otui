@@ -1,0 +1,11 @@
+MainWindow
+  id: q7Window
+  !text: tr('Q7 - Colter Snyder')
+  size: 240 240
+  @onEscape: toggle()
+
+  Button
+    id: buttonJump
+    !text: tr('Jump!')
+    width: 64
+    @onClick: jump()

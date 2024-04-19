@@ -1,0 +1,9 @@
+Module
+  name: Q7
+  description: Question 7: Jump Button
+  author: Snyder, Colter
+  website: https://github.com/coltersnyder/TavernlightTechnicalInterview
+  sandboxed: true
+  scripts: [ Q7 ]
+  @onLoad: init()
+  @onUnload: terminate()
