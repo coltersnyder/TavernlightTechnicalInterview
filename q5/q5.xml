@@ -1,0 +1,12 @@
+<spells>
+    <instant group="support" spellid="489" name="Question Five" words="frigo" level="1" mana="0" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/q5.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Paladin" />
+		<vocation name="Knight" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Royal Paladin" />
+		<vocation name="Elite Knight" />
+	</instant>
+</spells>
