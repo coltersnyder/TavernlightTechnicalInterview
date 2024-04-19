@@ -62,7 +62,7 @@ function init()
     q7Window:hide()
 
     -- Set top bar button
-    q7Button = modules.client_topmenu.addRightGameToggleButton('Q7', tr('Q7'), '/images/topbuttons/spelllist', toggle)
+    q7Button = modules.client_topmenu.addRightGameToggleButton('Q7', tr('Q7'), '/images/topbuttons/q7', toggle)
 
     -- Set Jump Button as defined in Q7.otui
     jumpButton = q7Window:getChildById('buttonJump')
