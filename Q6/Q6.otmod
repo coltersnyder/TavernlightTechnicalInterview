@@ -1,0 +1,9 @@
+Module
+  name: Q6
+  description: Question 6: Player Walking Shader
+  author: Snyder, Colter
+  website: https://github.com/coltersnyder/TavernlightTechnicalInterview
+  sandboxed: true
+  scripts: [ Q6 ]
+  @onLoad: init()
+  @onUnload: terminate()
