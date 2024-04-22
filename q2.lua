@@ -1,3 +1,16 @@
+--[[
+
+Question 2
+Colter Snyder
+
+Methodology:
+    Added query sanitization
+      Makes sure that memberCount is a number before attempting
+        to pass it on to the query
+    Finally, free the memory used by the result
+
+]]--
+
 function printSmallGuildNames(memberCount)
     -- this method is supposed to print names of all guilds that have less than memberCount max members
     local selectGuildQuery = "SELECT name FROM guilds WHERE max_members < %d;"

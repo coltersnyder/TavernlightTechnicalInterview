@@ -1,3 +1,15 @@
+--[[
+
+Question 3
+Colter Snyder
+
+Methodology:
+    Add variable checking to this file
+    Check if playerId and membername exist as players
+      and check if the player has a party
+      
+]]--
+
 function do_sth_with_PlayerParty(playerId, membername)
     player = Player(playerId)
 
