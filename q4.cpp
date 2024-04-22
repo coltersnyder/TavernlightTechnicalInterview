@@ -11,8 +11,8 @@ Methodology:
       rely on that pointer.
     Given item is a new created item that should remain persistant beyond
       this function, we do not want to delete this pointer.
-    We do create a new player that is potentially not used on line .
-    If line  turns out true, the function is returned from, leaving this
+    We do create a new player that is potentially not used on line 25.
+    If line 26 turns out true, the function is returned from, leaving this
       new player still allocated, thus we must delete it before this
       happens.
 
