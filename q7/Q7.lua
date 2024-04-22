@@ -1,3 +1,22 @@
+
+--[[
+
+Question 7
+Colter Snyder
+
+Methodology:
+    This was a fun question to try and figure out.
+    It really gave me an understanding of how the UI
+      system in OTClient works.
+    As for the methodology, I didn't deviate too much
+      from how the other UI windows in the OTClient
+      operate beyond using scheduleEvent() in order
+      to move the button from the right side of the
+      screen to the left and getting rid of that buttons
+      anchoring to the window.
+
+]]--
+
 -- Main UI window
 q7Window   = nil
 
